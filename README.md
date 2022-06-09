@@ -6,9 +6,9 @@ This VSF API extension connects the VSF 1.x Frontend with the Mollie Magento 2 M
 
 # Prerequisites
 - Magento 2.4.x (https://github.com/magento/magento2)
-- Mollie Magento Module (https://github.com/mollie/magento2)
-- VSF API (https://github.com/vuestorefront/vue-storefront-api)
-- VSF 1.x (https://github.com/vuestorefront/vue-storefront-1)
+- Mollie Magento Module 2.x (https://github.com/mollie/magento2)
+- VSF API 1.12.x (https://github.com/vuestorefront/vue-storefront-api)
+- VSF 1.12.x (https://github.com/vuestorefront/vue-storefront-1)
 
 # Installation Guide
 Follow these steps to install this API extenstion to the Vue Storefront API. 
