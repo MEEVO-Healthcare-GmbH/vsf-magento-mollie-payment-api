@@ -43,14 +43,17 @@ Add the API extension to the registered extensions to `local/config.json`
   "mollie": {
     "payment_token_guest_url": "/V1/guest-carts/{{cartId}}/mollie/payment-token",
     "payment_token_mine_url": "/V1/carts/mine/mollie/payment-token",
-    "transaction_start_url": "/V1/mollie/transaction/start",
-    "secret": "__SECRET_CHANGE_ME__"
+    "transaction_start_url": "/V1/mollie/transaction/start"
   }   
 }
 
 ```
 # Configure the Mollie Magento 2 Module
-Under **Stores > Settings > Configuration > Mollie > Advanced** please configure your PWA integration URL and enable "Use webhooks" to use your custom webhook url **{{your_vsf_base_url}}/api/ext/vsf-magento-mollie-payment-api/webhook**.
+Under **Stores > Settings > Configuration > Mollie > Advanced** please configure your PWA integration URL.
+![image](https://user-images.githubusercontent.com/32599710/172823392-2b3cc15e-e2ad-40d3-9941-ba3b80be2165.png)
+
+Enable "Use webhooks" to use your custom webhook url **{{your_vsf_base_url}}/api/ext/vsf-magento-mollie-payment-api/webhook**.
+![image](https://user-images.githubusercontent.com/32599710/172822765-5436afe6-abb0-4b33-b6c2-296e7b930553.png)
 
 # Support
 This extension is built to support the Mollie Payment Service for Vue Storefront 1.x.
