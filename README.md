@@ -2,7 +2,9 @@
 Vue Storefront API extension for Magento 2 and Mollie payment provider
 
 # Purpose
-This VSF API extension connects the VSF 1.x Frontend with the Mollie Magento 2 Module.
+Due to inactivity of https://github.com/Lakefields/vsf-payment-service-api this integration does neither support VSF 1.12 nor Magento 2 Mollie Module > 2.x.
+
+This VSF API extension connects VSF 1.12.x with the 2.x Mollie Magento 2 Module.
 
 # Prerequisites
 - Magento 2.4.x (https://github.com/magento/magento2)
@@ -62,4 +64,6 @@ Use at your own responsibility in your project. This extension is tested on Vue 
 If you need any assistance or want to do feature requests you can create an issue in this Github repository.
 
 # License
+Inspired by https://github.com/Lakefields/vsf-payment-service-api
+
 This extension is completely free and released under the MIT License.
