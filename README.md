@@ -1,4 +1,4 @@
-# VSF API 1.x Integration for Magento 2 and Mollie
+# VSF API 1.x Integration Mollie (Magento 2)
 Vue Storefront API extension for Magento 2 and Mollie payment provider
 
 # Purpose
