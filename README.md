@@ -43,7 +43,8 @@ Add the API extension to the registered extensions to `local/config.json`
   "mollie": {
     "payment_token_guest_url": "/V1/guest-carts/{{cartId}}/mollie/payment-token",
     "payment_token_mine_url": "/V1/carts/mine/mollie/payment-token",
-    "transaction_start_url": "/V1/mollie/transaction/start"
+    "transaction_start_url": "/V1/mollie/transaction/start",
+    "get_order_url": "/V1/mollie/get-order/{{hash}}"
   }   
 }
 
